@@ -114,7 +114,7 @@ echo -e '\E[32m'"Kernel Release :" $tecreset $kernelrelease
 echo -e '\E[32m'"Hostname :" $tecreset $HOSTNAME
 
 # Check Internal IP
-internalip=$(hostname -I)
+internalip=$(hostname -i)
 echo -e '\E[32m'"Internal IP :" $tecreset $internalip
 
 # Check External IP
